@@ -1,0 +1,23 @@
+doctype 5
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/css/style.css')
+    link(rel='stylesheet', href='/components/bootstrap/dist/css/bootstrap.css')
+    script(src='http://localhost:35729/livereload.js')
+    script(src='/components/jquery/dist/jquery.js')
+    script(src='/components/moment/moment.js')
+    script(src='/components/underscore/underscore.js')
+    script(src='http://crypto-js.googlecode.com/svn/tags/3.0.2/build/rollups/md5.js')
+    script(src='/js/otp.js')
+  body
+   .jumbotron
+    h1 POC Cookie OTP
+
+   .container
+     block content
+
+   p Cookie value
+   span.badge#cookieVal
+
+   a.btn.btn-default#stop stop otp
