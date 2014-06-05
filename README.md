@@ -7,3 +7,8 @@ to improve the poc
 * harder cookie generation method
 * more shorter cookie
 * salt based on browser unique features
+
+install
+==============
+
+ npm install && bower install && grunt
