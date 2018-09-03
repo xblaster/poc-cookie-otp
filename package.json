@@ -9,7 +9,7 @@
     "checksum": "^0.1.1",
     "cookie-parser": "^1.1.0",
     "crypto": "0.0.3",
-    "express": "~3.3.4",
+    "express": "~3.11.0",
     "express-session": "^1.2.1",
     "jade": "~0.34.0",
     "moment": "^2.6.0",
