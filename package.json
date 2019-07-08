@@ -5,7 +5,8 @@
   "scripts": {
     "start": "node app",
     "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "prepare": "npm run snyk-protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "checksum": "^0.1.1",
@@ -16,7 +17,7 @@
     "jade": "~1.8.0",
     "moment": "^2.6.0",
     "underscore": "^1.6.0",
-    "snyk": "^1.94.0"
+    "snyk": "^1.192.4"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
